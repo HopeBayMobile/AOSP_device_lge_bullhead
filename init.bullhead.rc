@@ -21,6 +21,8 @@ import init.bullhead.sensorhub.rc
 import init.bullhead.ramdump.rc
 import init.bullhead.misc.rc
 
+import init.tera.rc
+
 on early-init
     mount debugfs debugfs /sys/kernel/debug
     chown system system /sys/kernel/debug/kgsl/proc
