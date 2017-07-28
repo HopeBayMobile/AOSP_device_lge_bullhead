@@ -148,4 +148,6 @@ USE_CLANG_PLATFORM_BUILD := true
 
 USE_CLANG_PLATFORM_BUILD := true
 
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+
 -include vendor/lge/bullhead/BoardConfigVendor.mk
